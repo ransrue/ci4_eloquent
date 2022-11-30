@@ -35,8 +35,8 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'dupak',
-        'DBDriver' => 'MySQLi',
+        'database' => 'mysql',
+        'DBDriver' => 'mysql',
         'DBPrefix' => '',
         'pConnect' => false,
         'DBDebug'  => (ENVIRONMENT !== 'production'),
@@ -51,7 +51,7 @@ class Database extends Config
     ];
 
     /**
-     * The dupak database connection.
+     * The default database connection.
      *
      * @var array
      */
